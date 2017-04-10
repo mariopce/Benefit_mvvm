@@ -9,10 +9,10 @@ android {
 
     defaultConfig {
         applicationId "com.hatak.benefit"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 24
-        versionCode 18
-        versionName "1.8"
+        versionCode 19
+        versionName "1.9"
         multiDexEnabled true
     }
 
@@ -74,7 +74,7 @@ dependencies {
     compile 'io.reactivex:rxjava:1.1.9'
 
     // guava
-    compile group: 'com.google.guava', name: 'guava', version: '21.0'
+    compile group: 'com.google.guava', name: 'guava', version: '20.0'
 
     // animations
     compile 'com.nineoldandroids:library:2.4.0'
